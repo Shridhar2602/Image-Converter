@@ -39,13 +39,3 @@ ASSUMPTIONS
    the code for 256 colours but it gives Segmentation Error for some images having more than 4 colours.
 
 2. For the 2 images provided, it works correctly.
-
-PROJECT MEMBERS AND THEIR CONTRIBUTIONS.
----------------------------------------
-
-1) Jainav: 	 Research on TIFF file format and helped writing TIFF image data code.
-2) Prabal: 	 Defined appropriate data structures for storing TIFF data.
-3) Anurag: 	 wrote code to store TIFF image data (tiff_img_reader.c)
-4) Shashank: 	 Research on GIF and makefile.
-5) Ashish: 	 Research on GIF and wrote code to convert RGB data from TIFF and wrote the gif image.
-6) Shridhar: 	 Research on GIF and wrote code to convert RGB data from TIFF and wrote the gif image.
