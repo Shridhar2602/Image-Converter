@@ -8,20 +8,19 @@ This archive contains a tool written in C programming language to convert an ima
 	Destination format:	uncompressed GIF.
 
 The tool:
-> reads the image data from the source image.
-> populates suitable data structures with image data.
-> converts data such that it is suitable to fill destination format data structures.
-> uses data in destination data structure format and creates a destination image file.
+- reads the image data from the source image.
+- populates suitable data structures with image data.
+- converts data such that it is suitable to fill destination format data structures.
+- uses data in destination data structure format and creates a destination image file.
 
 FILES
 -----
 
-declarations.h 	  -> contains function declarations and structures of both tiff and gif programs.
-tiff_img_reader.c -> program to read image data and properties from the source image.
-gif_img_writer.c  -> program to write GIF image file using RGB data collected from TIFF image.
-main.c 			  -> contains main() function which calls all required functions, reads and writes data.
-makefile		  -> makefile for this project (assumes gcc and GNU make).
-README.txt		  -> this file.
+- declarations.h : contains function declarations and structures of both tiff and gif programs.
+- tiff_img_reader.c : program to read image data and properties from the source image.
+- gif_img_writer.c : program to write GIF image file using RGB data collected from TIFF image.
+- main.c : contains main() function which calls all required functions, reads and writes data.
+- makefile : makefile for this project (assumes gcc and GNU make).
 
 BUILD
 -----
